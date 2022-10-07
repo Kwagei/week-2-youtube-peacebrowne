@@ -221,6 +221,7 @@ nav{
 
 .nav-div{
     width: 100%;
+    overflow: scroll;
 }
 
 .scroll-left{
@@ -238,6 +239,7 @@ nav{
 }
 
 nav button{
+    width: auto;
     padding: 0.4rem 0.7rem 0.4rem 0.7rem;
     border: 1.5px solid rgb(0 0 0 / 15%);
     border-radius: 20px;
@@ -325,6 +327,7 @@ nav button:hover{
     justify-content: space-between;
     cursor: pointer;
     padding-bottom: 1rem;
+    margin: 0px 0.3rem;
 }
 
 .o-v-d{
