@@ -331,12 +331,13 @@ nav button:hover{
 }
 
 .o-v-d{
-    width: 180px;
+    width: 16.67%;
     height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
+    margin: 0px 0.3rem;
 }
 
 .o-v-d .video{
