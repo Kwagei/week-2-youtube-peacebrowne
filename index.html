@@ -4,552 +4,611 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
-    <title>Youtube</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>flexbox-practice</title>
 </head>
 <body>
+        <header>
+            <div class="item item1">
+                <i class="fa fa-bars"></i> 
+                <img src="https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6.jpg" alt="" width="150px" height="100%">
+            </div>
 
-    
-    <header>
-        <div class="logo">
-            <i class="fa fa-bars"></i> 
-            <img src="./download.jpeg" alt="" width="130px" height="80%">
-        </div>
-        <div class="search">
-            <span>
-                <input type="search" placeholder="Search"> 
-                <i class="fa fa-search"></i> 
-            </span>
-            <i class="fa fa-microphone"></i>
-        </div>
-        <div class="user">
-            <i class="fa fa-laptop-medical"></i>
-            <i class="far fa-bell"></i>            
-            <i id="user-search" class="fa fa-search"></i>
-            <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/P7EXvd36W1KEew2J0BArJMywjlZlY4mZsjqRiapkUsEbjWhpsoB55sEnmY2N3U27Bx0Hwl8b=s88-c-k-c0x00ffffff-no-rj-mo" alt="">
-        </div>
-    </header>
-
-    <main>
-        <aside>
-              <ul>
-                  <li>
-                      <i class="fa fa-home"></i>
-                      <a href="#">Home</a>
-                  </li>
-                  <li>
-                      <i class="far fa-compass"></i> 
-                      <a href="#">Explore</a>
-                  </li>                
-                  <li>
-                      <i class="fa fa-hurricane"></i>
-                      <a href="#">Shorts</a>
-                  </li>
-                  <li>
-                      <i class="fa fa-tv"></i>
-                      <a href="#">Subscriptions</a>
-                  </li>
-              </ul>
-              <ul >
-                  <li>
-                      <i class="far fa-microphone"></i>
-                      <a href="#">Library</a>
-                  </li>
-                  <li>
-                      <i class="fa fa-clock-rotate-left"></i> 
-                      <a href="#">History</a>
-                  </li>                
-                  <li>
-                      <i class="far fa-microphone"></i>
-                      <a href="#">Your videos</a>
-                  </li>
-                  <li>
-                      <i class="far fa-clock"></i>
-                      <a href="#">Watch later</a>
-                  </li>
-                  <li>
-                      <i class="far fa-thumbs-up"></i>
-                      <a href="#">Liked videos</a>
-                  </li>
-                  <li>
-                      <i class="fa fa-angle-down"></i>
-                      <a href="#">Show more</a>
-                  </li>
-              </ul>
-              <ul>
-                  <li>
-                      <h4>SUBSCRIPTIONS</h4>
-                  </li>
-                  <li>
-                      <img src="https://yt3.ggpht.com/zA28uF-z2nHl5Oq4GZ9w00J7c3lMl_G1bnPJZT9nejPyWieprYAXJnzhSNXOysvZ0wtFn5IQnVo=s88-c-k-c0x00ffffff-no-rj" alt="">
-                      <a href="#">AshStudio7</a>
-                      <span class="on">.</span>
-                  </li>
-                  <li>
-                      <img src="https://yt3.ggpht.com/JMz1LfvlBPEZsEq4WAisDpSEnwvoOEgTzewQNCXTvTknSPm3fEu-qAMrJMoMCi079QsrGVj5jg=s88-c-k-c0x00ffffff-no-rj" alt="">
-                      <a href="#">TechLamb</a>
-                  </li>                
-                  <li>
-                      <img src="https://yt3.ggpht.com/ytc/AMLnZu_ZqUuT9IsscBkUYY4aEMb88PfHx9JHC9iDjRxOew=s88-c-k-c0x00ffffff-no-rj" alt="">
-                      <a href="#">Neptune3 Studios</a>
-                      <span class="on">.</span>
-                  </li>
-                  <li>
-                      <img src="https://yt3.ggpht.com/yTxYvGdx5F6wbdVtB9hdjnbUEraJQ42EluB1XGsSefpF72kcbJEhaizLhznOQGxf_hd1EyKHJng=s88-c-k-c0x00ffffff-no-rj" alt="">
-                      <a href="#">Ofnell Onto-Boi</a>
-                  </li>
-                  <li>
-                      <img src="https://yt3.ggpht.com/eJqHud5u7ojKJex5DBbFLjDKdgVKdLhMrFPDplAJhHZ49EL_VvVPckMvy8v4iYvCCePb8oI0=s88-c-k-c0x00ffffff-no-rj" alt="">
-                      <a href="#">Blessing Boaslah</a>
-                  </li>
-                  <li>
-                      <img src="https://yt3.ggpht.com/HpCISEep1_31XEZki3sgtGpUriHcUjrfjiW8V8sNR3bn_1uRjavbAw638cTemxnVIcihlfNo=s88-c-k-c0x00ffffff-no-rj" alt="">
-                      <a href="#">Gardner-Webb Athleti...</a>
-                  </li>
-                  <li>
-                      <img src="https://yt3.ggpht.com/ytc/AMLnZu_rUj0nccnc8r_4ybGkWEpiqCQF04mmMp63FPXq=s88-c-k-c0x00ffffff-no-rj" alt="">
-                      <a href="#">TOP LOVE TV</a>
-                      <span class="on">.</span>
-                  </li>
-                 
-                  <li>
-                      <i class="fa fa-angle-down"></i>
-                      <a href="#">Show10 more</a>
-                  
-                  </li>
-              </ul>
-              <ul>
-                  <li>
-                      <h4>EXPLORE</h4>
-                  </li>
-                  <li>
-                      <i class="fa fa-gamepad"></i> 
-                      <a href="#">Gaming</a>
-                  </li>
-                  <li>
-                      <i class="fa fa-tower-broadcast"></i> 
-                      <a href="#">Live</a>
-                  </li>                
-                  <li>
-                      <i class="far fa-tower-broadcast"></i> 
-                      <a href="#">Fashion & Beauty</a>
-                  </li>
-                  <li>
-                      <i class="far fa-lightbulb"></i> 
-                      <a href="#">Learnig</a>
-                  </li>
-                  <li>
-                      <i class="fa fa-trophy"></i> 
-                      <a href="#">Sports</a>
-                  </li>
-              </ul>
-      
-              <ul class="more-opt">
-                  <li>
-                      <h4>MORE FROM YOUTUBE</h4>
-                  </li>
-                  <li>
-                      <i class="far fa-tower-broadcast"></i> 
-                      <a href="#">Creator Studio</a>
-                  </li>
-                  <li>
-                      <i class="far fa-circle-play"></i> 
-                      <a href="#">YouTube Music</a>
-                  </li>
-                 
-                  <li>
-                      <i class="fab fa-youtube"></i>
-                      <a href="#">YouTube Kids</a>
-                  </li>
-                  <li>
-                      <i class="fa fa-tv"></i>
-                      <a href="#">YouTube TV</a>
-                  </li>
-              </ul>
-      
-              <ul>
-                  
-                  <li>
-                      <i class="fa fa-gear"></i> 
-                      <a href="#">Settings</a>
-                  </li>
-                  <li>
-                      <i class="far fa-flag"></i> 
-                      <a href="#">Report history</a>
-                  </li>
-                 
-                  <li>
-                      <i class="far fa-circle-question"></i>
-                      <a href="#">Help</a>
-                  </li>
-                  <li>
-                      <i class="far fa-message"></i>
-                      <a href="#">Send feedback</a>
-                  </li>
-              </ul>
-      
-          </aside>
-     
-          <div class="right-aside">
-            <nav>
-                <!-- <div class="nav-div"> -->
-                   
-                    <span class="nav-active" >all</span>
-                   <span>Musics</span>
-                    <span>mixes</span>
-                    <span>gaming</span>
-                     <span>live</span>
-                    <span>crowds</span>
-                    <span>crowds</span>
-                    <span>news</span>
-                    <span>news</span> 
-                    <span>crowds</span>
-                    <span>news</span>
-                    <span>news</span> 
-                    <span>mixes</span>
-                    <span>gaming</span>
-                    <span>live</span>
-                    <span>crowds</span>
-
-                <!-- </div> -->
-                <div class="scroll-left">
-                    <i class="fa fa-angle-right"></i>
+            <div class="item item2">
+                <div class="search">
+                    <input type="text" name="" id="" placeholder="Search">
+                    <i class="fa fa-search"></i> 
                 </div>
-            </nav>
-            <div class="sections">
-                <section>
-                    <div class="v-d">
-                        <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/MVgwWHOY7Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
-                        </div>
-                        <div class="info">
-                            <div class="video-img">
-                                <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/MwXcuDbzTp_sljZvhh6ccH-tKJ3Qiu_glGz4vOndjgbuVRny6dnxkHX-JJcVUn8AXYs8zJRN=s48-c-k-c0x00ffffff-no-rj" alt=""> 
-                            </div>
-                            <div class="video-info">
-                                <h3>USA vs Russia military power comparison 2022</h3>
-                                <p>962,514 views  Mar 20, 2022  In this video we have ....</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="v-d">
-                        <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/4JeUkkQ7BQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
-                        </div>
-                        <div class="info">
-                            <div class="video-img">
-                                
-                                <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/5wU1-9NdKAOm67J7Dd39pVGXewKe-dMF1Oy2yUYDFJO4FCxiuQUVTzdyMB6cMfQ7CFM10nN1jQ=s48-c-k-c0x00ffffff-no-rj" alt=""> 
-                            </div>
-                            <div class="video-info">
-                                <h3>Cristiano Ronaldo showed respect to Manchester City!! 🙏👀👏</h3>
-                                <p>238,438 views  Premiered..</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="v-d">
-                        <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/q-4_I_nRBOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="info">
-                            <div class="video-img">
-                                <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/ytc/AMLnZu9gxDljCFF3a4E6QkroVHBz0Z9qgH2l9LfzzMMR=s48-c-k-c0x00ffffff-no-rj" alt=""> 
-                            </div>
-                            <div class="video-info">
-                                <h3>Sakina Karchaoui just dances with defenders!</h3>
-                                <p>5,421,071 views  Mar 27, 2022  Sakina Karchaoui - France - PSG - </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="v-d">
-                        <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/5E0O-rS71qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
-                        </div>
-                        <div class="info">
-                            <div class="video-img">
-                                <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/0yq73epyHziL3Mq_5U4uWJiIOTcTJbd0JSTyDJwPmDzqJoScva5zvLeG1I2ruKfAjaeH6NDa=s48-c-k-c0x00ffffff-no-rj" alt=""> 
-                            </div>
-                            <div class="video-info">
-                                <h3>Comedy in Football</h3>
-                                <p>91,148 views  Sep 26, 2022  Comedy in Football</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <i class="fa fa-microphone"></i>
+            </div>
 
-                <section>
-                    <div class="v-d">
-                        <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/AJpmyvAYdtE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
-                        </div>
-                        <div class="info">
-                            <div class="video-img">
-                                <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/xyZ42y15U-Jgi85A6TcInddIvuVLMGt0741gPgItKel9MF8NdZaH60BORFAZ2dPL9XvfZAZ17eA=s48-c-k-c0x00ffffff-no-rj" alt=""> 
-                            </div>
-                            <div class="video-info">
-                                <h3>What Happens in Football When The Referee is a.</h3>
-                                <p>What Happens in Football When The Referee is a Woman</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="v-d">
-                        <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/UxBLmvCb9FA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
-                        </div>
-                        <div class="info">
-                            <div class="video-img">
-                                <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/ytc/AMLnZu9PKh7AcvinlkzGaDkAOlbe4SwEtDMdUNbLc-ymPA=s48-c-k-c0x00ffffff-no-rj" alt=""> 
-                            </div>
-                            <div class="video-info">
-                                <h3>Memorable Moments by Alisha Lehmann.</h3>
-                                <p>5,140,394 views  Mar 5, 2022  memorable moments by alisha lehmann,....</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="v-d">
-                        <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/_oH9uV6m7WI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
-                        </div>
-                        <div class="info">
-                            <div class="video-img">
-                                <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/ytc/AMLnZu8sjrrCrRElUXwDWDZNARHZQy2hoP28Qgv6a9IF0A=s48-c-k-c0x00ffffff-no-rj" alt=""> 
-                            </div>
-                            <div class="video-info">
-                                <h3>Top 10 dos melhores dribles provocativos na África ( BEST AGOSTO 2022 )😱😂🔥</h3>
-                                <p>88,485 views  Aug 14, 2022  Top 10 | Top 10 Dribles</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="v-d">
-                        <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/nZy2XqZavVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-                        </div>
-                        <div class="info">
-                            <div class="video-img">
-                                <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/gBgEILBVqR8qDwYM0aGELHP12befqhjeZN8yyUOwGtOohaaYJzBdYD7rEX3oAogcxm1jZdrx=s48-c-k-c0x00ffffff-no-rj" alt=""> 
-                            </div>
-                            <div class="video-info">
-                                <h3>MAN CITY VS MAN UNITED - ALL GOALS & HIGHLIGHTS 2022.</h3>
-                                <p>200,149 views  Oct 2, 2022  MAN CITY VS MAN UNITED </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+            <div class="item item3">
+                <img src="./imgs/video-plus.svg" class="video-plus" width="30px" alt="">
+                <i class="fa-solid fa-bell"></i>
+                <i class="fa fa-search"></i> 
+                <img src="https://yt3.ggpht.com/P7EXvd36W1KEew2J0BArJMywjlZlY4mZsjqRiapkUsEbjWhpsoB55sEnmY2N3U27Bx0Hwl8b=s88-c-k-c0x00ffffff-no-rj-mo" width="35px" height="35px" alt="">
+               
+            </div>
+        </header>
+        <main>
+            <aside class="item item1">
+                <div class="mobile-aside">
+                    <ul>
+                        <li>
+                            <i class="fa fa-home"></i>
+                        </li>
+                        <li>
+                            <i class="far fa-compass"></i> 
+                        </li>                
+                        <li>
+                            <img src="./imgs/youtube-shorts-logo-15251.svg" width="24px" alt="">
+                        </li>
+                        <li>
+                            <img src="./imgs/youtube_subscription_icon_136007.svg" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <ul class="desktop-aside">
+                    <li>
+                        <i class="fa fa-home"></i>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <i class="far fa-compass"></i> 
+                        <a href="#">Explore</a>
+                    </li>                
+                    <li>
+                        <img src="./imgs/youtube-shorts-logo-15251.svg" width="24px" alt="">
+                        <a href="#">Shorts</a>
+                    </li>
+                    <li>
+                        <img src="./imgs/youtube_subscription_icon_136007.svg" alt="">
+                        <a href="#">Subscriptions</a>
+                    </li>
+                
+                </ul>
 
-                <section class="extra-videos">
-                    <div class="shorts">
-                        <div class="shorts-info">
-                            <i class="fa fa-hurricane"></i>
-                            <h3>Shorts</h3>
-                        </div>
-                        <div class="shorts-cancel">
-                            <i class="fa fa-times"></i>
-                        </div>
+                <ul class="desktop-aside next-link">
+                    <li>
+                        <img src="./imgs/video-library.svg" alt="">
+                        <a href="#">Library</a>
+                    </li>
+
+                    <li>
+                        <img src="./imgs/history.svg" width="30px" alt="">
+                        <a href="#">History</a>
+                    </li>
+
+                    <li>
+                        <img src="./imgs/video.svg" width="20px" alt="">
+                        <a href="#">Your video</a>
+                    </li>
+
+                    <li>
+                        <img src="./imgs/watch-later.svg" alt="">
+                        <a href="#">Watch later</a>
+                    </li>
+
+                    <li>
+                        <img src="./imgs/download.svg"  alt="">
+                        <a href="#">Downloads</a>
+                    </li>
+
+                    <li>
+                        <img src="./imgs/thumbs-up.svg" width="21px" alt="">
+                        <a href="#">Liked video</a>
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-angle-down"></i>
+                        <a href="#">Show more</a>
+                    </li>
+                </ul>
+
+                <ul class="desktop-aside next-link">
+                    <h4>SUBSCRIPTIONS</h4>
+                    <li>
+                        <img class="subscription" src="https://yt3.ggpht.com/zA28uF-z2nHl5Oq4GZ9w00J7c3lMl_G1bnPJZT9nejPyWieprYAXJnzhSNXOysvZ0wtFn5IQnVo=s88-c-k-c0x00ffffff-no-rj" width="30px" alt="">
+                        <a href="#">AshStudio7</a>
+                    </li>
+
+                    <li>
+                        <img  class="subscription" src="https://yt3.ggpht.com/yTxYvGdx5F6wbdVtB9hdjnbUEraJQ42EluB1XGsSefpF72kcbJEhaizLhznOQGxf_hd1EyKHJng=s88-c-k-c0x00ffffff-no-rj" width="30px" alt="">
+                        <a href="#">Ofnell Onto-Boi</a>
+                    </li>
+
+                    <li>
+                        <img  class="subscription" src="https://yt3.ggpht.com/JMz1LfvlBPEZsEq4WAisDpSEnwvoOEgTzewQNCXTvTknSPm3fEu-qAMrJMoMCi079QsrGVj5jg=s88-c-k-c0x00ffffff-no-rj" width="30px" alt="">
+                        <a href="#">TechLamb</a>
+                    </li>
+
+                    <li>
+                        <img  class="subscription" src="https://yt3.ggpht.com/ytc/AMLnZu_ZqUuT9IsscBkUYY4aEMb88PfHx9JHC9iDjRxOew=s88-c-k-c0x00ffffff-no-rj" width="30px" alt="">
+                        <a href="#">Neptune3 Studio</a>
+                    </li>
+
+                    <li>
+                        <img  class="subscription" src="https://yt3.ggpht.com/eJqHud5u7ojKJex5DBbFLjDKdgVKdLhMrFPDplAJhHZ49EL_VvVPckMvy8v4iYvCCePb8oI0=s88-c-k-c0x00ffffff-no-rj" width="30px" alt="">
+                        <a href="#">Blessing Boaslah</a>
+                    </li>
+
+                    <li>
+                        <img  class="subscription" src="https://yt3.ggpht.com/HpCISEep1_31XEZki3sgtGpUriHcUjrfjiW8V8sNR3bn_1uRjavbAw638cTemxnVIcihlfNo=s88-c-k-c0x00ffffff-no-rj" width="30px" alt="">
+                        <a href="#">Gardner-Webb Athleti </a>
+                    </li>
+
+                    <li>
+                        <img  class="subscription" src="https://yt3.ggpht.com/kPWFN7N5wKaazRWOv-5ebJgR5QsPIvABN-Czdnjei0yJEwrOvnsDbCVags1phu09O_-bGbek6sg=s88-c-k-c0x00ffffff-no-rj" width="30px" alt="">
+                        <a href="#">TOP LOVE TV </a>
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-angle-down"></i>
+                        <a href="#">Show 10 more</a>
+                    </li>
+                   
+                </ul>
+
+                <ul class="desktop-aside next-link">
+                    <h4>EXPLORE</h4>
+                    <li>
+                        <img class="subscription" src="./imgs/youtube-gaming.svg" width="30px" alt="">
+                        <a href="#">Gaming</a>
+                    </li>
+
+                    <li>
+                        <img  class="subscription" src="./imgs/live-streaming.svg" width="35px" alt="">
+                        <a href="#">Live</a>
+                    </li>
+
+                    <li>
+                        <img  class="subscription" src="./imgs/hangger.svg" width="30px" alt="">
+                        <a href="#">Fashion & Beauty</a>
+                    </li>
+
+                    <li>
+                        <img  class="subscription" src="./imgs/lightbulb.svg" width="30px" alt="">
+                        <a href="#">Learning</a>
+                    </li>
+
+                    <li>
+                        <img  class="subscription" src="./imgs/trophy.svg" width="30px" alt="">
+                        <a href="#">Sports</a>
+                    </li>
+
+                </ul>
+
+                <ul class="desktop-aside next-link">
+                    <h4>MORE FROM YOUTUBE</h4>
+                    <li>
+                        <img class="subscription" src="./imgs/YouTube_Studio_icon_2021.webp" width="25px" alt="">
+                        <a href="#">Creator Studio</a>
+                    </li>
+
+                    <li>
+                        <img  class="subscription" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Youtube_Music_icon.svg/240px-Youtube_Music_icon.svg.png" width="25px" alt="">
+                        <a href="#">YouTube Musics</a>
+                    </li>
+
+                    <li>
+                        <img  class="subscription" src="https://www.freepnglogos.com/uploads/youtube-tv-png/youtube-tv-youtube-kids-ook-beschikbaar-nederland-bfound-8.png" style="background-color: white;" width="30px" alt="">
+                        <a href="#">YouTube Kids</a>
+                    </li>
+
+                    <li>
+                        <img  class="subscription" src="https://logos-world.net/wp-content/uploads/2021/04/YouTube-TV-Emblem.png" style="border-radius: 1px;" width="30px" alt="">
+                        <a href="#">YouTube TV</a>
+                    </li>
+
+                </ul>
+
+                <ul class="desktop-aside next-link">
+                    <li>
+                        <i class="fa-solid fa-gear"></i>
+                        <a href="#">Settings</a>
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-flag"></i>
+                        <a href="#">Report History</a>
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-circle-info"></i>
+                        <a href="#">Help</a>
+                    </li>
+
+                    <li>
+                        <img  class="subscription" src="./imgs/feedback (1).svg" style="border-radius: 1px;" width="30px" alt="">
+                        <a href="#">FeedBack</a>
+                    </li>
+
+                </ul>
+
+                <footer class="next-link desktop-aside">
+                   
+                    <h5><a href="#">About</a></h5>
+                    <h5><a href="#">Copyright</a></h5>
+                    <h5><a href="#">Constact us</a></h5>
+                    <h5><a href="#">Creator</a></h5>
+                    <h5><a href="#">Advertise</a></h5>
+                    <h5><a href="#">Developers</a></h5>
+
+                    <br><br>
+                    <h5><a href="#">Terms</a></h5>
+                    <h5><a href="#">Privacy</a></h5>
+                    <h5><a href="#">Policy & Safety</a></h5>
+                    <h5><a href="#">How YouTube works</a></h5>
+                    <h5><a href="#">Test new features</a></h5>
+                    
+                    <span><i class="fa-solid fa-copyright"></i> 2022 Google LLC</span>
+
+                </footer>
+            </aside>
+            <section class="item item2">
+                <nav>
+                    <span id="nav-active" >all</span>
+                    <span>Musics</span>
+                     <span>mixes</span>
+                     <span>gaming</span>
+                      <span>live</span>
+                     <span>crowds</span>
+                     <span>crowds</span>
+                     <span>news</span>
+                     <span>news</span> 
+                     <span>crowds</span>
+                     <span>news</span>
+                     <span>news</span> 
+                     <span>mixes</span>
+                     <span>gaming</span>
+                     <span>live</span>
+                     <span>crowds</span>
+                    <div class="nav-scrool">
+                        <i class="fa-solid fa-angle-right"></i>
                     </div>
+                </nav>
 
-                    <div class="options-videos">
-
-                        <div class="o-v-d">
+                <div class="video-section">
+                    <div class="video-section-item">
+                        <div class="video-item">
                             <div class="video">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/YAs13D8-LcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                        
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/MVgwWHOY7Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
                             </div>
-                            <div class="info">
-                                <div class="video-info">
-                                    <h3>Neymar & Vinícius </h3>
-                                    <p>3,729,906 views  Mar 26, 2022...</p>
+                            <div class="video-info">
+                                <div class="video-img">
+                                    <img src="https://yt3.ggpht.com/MwXcuDbzTp_sljZvhh6ccH-tKJ3Qiu_glGz4vOndjgbuVRny6dnxkHX-JJcVUn8AXYs8zJRN=s48-c-k-c0x00ffffff-no-rj" alt=""> 
+                                </div>
+                                <div class="info">
+                                    <h5>USA vs Russia military power comparison 2022</h5>
+                                    <p>962,514 views  Mar 20, 2022  In this video we have ....</p>
                                 </div>
                             </div>
                         </div>
-    
-                        <div class="o-v-d">
-                            <div class="video">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/rQdCuPjbQRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                        
-                            </div>
-                            <div class="info">
-                                <div class="video-info">
-                                    <h3>You will never make </h3>
-                                    <p>173,975 views  Oct 15,...</p>
-                                </div>
-                            </div>
-                        </div>
-    
-                         <div class="o-v-d">
-                            <div class="video">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/eQi9k-MMKro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                        
-                            </div>
-                            <div class="info">
-                                <div class="video-info">
-                                    <h3>"Jack Of All Trades" </h3>
-                                    <p>22,220 views  Oct 27 </p>
-                                </div>
-                            </div>
-                        </div>
-    
-                    <div class="o-v-d">
-                            <div class="video">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/dnwrL5udsyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
-                            </div>
-                            <div class="info">
-                                <div class="video-info">
-                                    <h3>The Magic Flute</h3>
-                                    <p>2.8M views</p>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="o-v-d">
-                            <div class="video">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/eQi9k-MMKro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                        
-                            </div>
-                            <div class="info">
-                                <div class="video-info">
-                                    <h3>"Jack Of All Trades" </h3>
-                                    <p>2.8M views</p>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="o-v-d">
-                            <div class="video">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/o9NfXIXzgnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                        
-                            </div>
-                            <div class="info">
-                                <div class="video-info">
-                                    <h3>Charlie Chaplin </h3>
-                                    <p>2.8M views</p>                            
-                                </div>
-                            </div>
-                        </div> 
-    
-                    </div>
 
-                    <div class="more-videos">
-                        <i class="fa fa-angle-down"></i>
-                    </div>
-                </section>
-
-                <section>
-                    <div class="v-d">
-                        <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/irTAQnrBuBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
-                        </div>
-                        <div class="info">
-                            <div class="video-img">
-                                <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/ytc/AMLnZu_GUMeR7wGyMlxJzHfAbwVYWf2-r3k0Ip2KoFttBw=s48-c-k-c0x00ffffff-no-rj" alt=""> 
+                        <div class="video-item">
+                            <div class="video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/5E0O-rS71qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
                             </div>
                             <div class="video-info">
-                                <h3>96-year-old WWII pilot</h3>
-                                <p>22,473,603 views  Feb 17, 2017 </p>
+                                <div class="video-img">
+                                    <img src="https://yt3.ggpht.com/0yq73epyHziL3Mq_5U4uWJiIOTcTJbd0JSTyDJwPmDzqJoScva5zvLeG1I2ruKfAjaeH6NDa=s48-c-k-c0x00ffffff-no-rj" alt=""> 
+                                </div>
+                                <div class="info">
+                                    <h5>Comedy in Football</h5>
+                                    <p>91,148 views  Sep 26, 2022  Comedy in Football</p>
+                                </div>
                             </div>
                         </div>
+
+                        <div class="video-item">
+                            <div class="video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/4JeUkkQ7BQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
+                            </div>
+                            <div class="video-info">
+                                <div class="video-img">
+                                    <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/5wU1-9NdKAOm67J7Dd39pVGXewKe-dMF1Oy2yUYDFJO4FCxiuQUVTzdyMB6cMfQ7CFM10nN1jQ=s48-c-k-c0x00ffffff-no-rj" alt=""> 
+                                </div>
+                                <div class="info">
+                                    <h5>Cristiano Ronaldo showed respect to Manchester City!! 🙏👀👏</h5>
+                                    <p>962,514 views  Mar 20, 2022  In this video we have ....</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-item">
+                            <div class="video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/q-4_I_nRBOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="video-info">
+                                <div class="video-img">
+                                    <img src="https://yt3.ggpht.com/ytc/AMLnZu9gxDljCFF3a4E6QkroVHBz0Z9qgH2l9LfzzMMR=s48-c-k-c0x00ffffff-no-rj" alt=""> 
+                                </div>
+                                <div class="info">
+                                    <h5>Sakina Karchaoui just dances with defenders!</h5>
+                                    <p>5,421,071 views  Mar 27, 2022  Sakina Karchaoui - France - PSG -</p>
+                                </div>
+                            </div>
+                        </div>
+                       
                     </div>
-                    <div class="v-d">
+
+                    <div class="video-section-item">
+                        <div class="video-item">
+                            <div class="video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/AJpmyvAYdtE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
+                            </div>
+                            <div class="video-info">
+                                <div class="video-img">
+                                    <img src="https://yt3.ggpht.com/xyZ42y15U-Jgi85A6TcInddIvuVLMGt0741gPgItKel9MF8NdZaH60BORFAZ2dPL9XvfZAZ17eA=s48-c-k-c0x00ffffff-no-rj" alt=""> 
+                                </div>
+                                <div class="info">
+                                    <h5>What Happens in Football When The Referee is a.</h5>
+                                    <p>What Happens in Football When The Referee is a Woman</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-item">
+                            <div class="video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/_oH9uV6m7WI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
+                            </div>
+                            <div class="video-info">
+                                <div class="video-img">
+                                    <img src="https://yt3.ggpht.com/ytc/AMLnZu8sjrrCrRElUXwDWDZNARHZQy2hoP28Qgv6a9IF0A=s48-c-k-c0x00ffffff-no-rj" alt=""> 
+                                </div>
+                                <div class="info">
+                                    <h5>Top 10 dos melhores dribles provocativos na África ( BEST AGOSTO 2022 )😱😂🔥</h5>
+                                    <p>88,485 views  Aug 14, 2022  Top 10 | Top 10 Dribles</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-item">
+                            <div class="video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/6fnBOF6Qjz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
+                            </div>
+                            <div class="video-info">
+                                <div class="video-img">
+                                    <img src="https://yt3.ggpht.com/ytc/AMLnZu-FSXXRcvNpP6KQylY5DHvNesmUndA2KvwWq-LX2w=s48-c-k-c0x00ffffff-no-rj" alt=""> 
+                                </div>
+                                <div class="info">
+                                    <h5>10 Bodybuilders Who Took It Too Far</h5>
+                                    <p>10,915,983 views  Mar 29, 2022  When it comes to our body</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-item">
+                            <div class="video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/ab_B-8Rmmrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
+                            </div>
+                            <div class="video-info">
+                                <div class="video-img">
+                                    <img src="https://yt3.ggpht.com/ytc/AMLnZu9YD4K5berrayDfKqV1meefqjqE4QXgTJ3n-ZCB-w=s48-c-k-c0x00ffffff-no-rj" alt=""> 
+                                </div>
+                                <div class="info">
+                                    <h5>THE NUN (2018) | Behind the Scenes</h5>
+                                    <p>12,667,766 views  Sep 4, 2018  Making of The Nun</p>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                    <!-- extra videos -->
+                    <div class="video-section-item" id="extra-videos">
+                        <div class="extra-video-icon">
+                            <img src="./imgs/youtube-shorts-icon.svg" alt="">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+
+                        <div class="video-item-extra">
+                            <div class="extra-video">
+                                <div class="video">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5THHBH6CD14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                
+                                </div>
+                                <div class="video-info">
+                                    <div class="info">
+                                        <h5>6 Scariest Tribes</h5>
+                                        <p>In this video we look at 6 scariest uncontacted tribes</p>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="extra-video">
+                                <div class="video">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7qEiLGxxV_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="video-info">
+                                    <div class="info">
+                                        <h5>Exposing the Most Popular Tricks and Illusions</h5>
+                                        <p>5,262,072 views  Aug 6, 2020  PRIVATE DIARY</p>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="extra-video">
+                                <div class="video">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/irrA_dab_go" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="video-info">
+                                    <div class="info">
+                                        <h5>No Jail Can Hold This Man... </h5>
+                                        <p>17,932,595 views  Apr 26, 2020  No Jail Can Hold This Man.</p>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="extra-video">
+                                <div class="video">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/obhkcrwvkd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                
+                                </div>
+                                <div class="video-info">
+                                    <div class="info">
+                                        <h5>Craziest Military Training Exercises</h5>
+                                        <p>2,422,336 views  Apr 20, 2022  Craziest Military...</p>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="extra-video">
+                                <div class="video">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Q3W31HmN7ls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                
+                                </div>
+                                <div class="video-info">
+                                    <div class="info">
+                                        <h5>L'horreur des bateaux négriers</h5>
+                                        <p>21,750 views  Apr 22, 2021</p>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="extra-video">
+                                <div class="video">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wvO6YU2J0hQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                
+                                </div>
+                                <div class="video-info">
+                                    <div class="info">
+                                        <h5>HONG KAKNIN</h5>
+                                        <p>HONG KAKNIN NOMAD..</p>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="more-video">
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+
+                    <div class="video-section-item">
+                        <div class="video-item">
+                            <div class="video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/irTAQnrBuBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
+                            </div>
+                            <div class="video-info">
+                                <div class="video-img">
+                                    <img src="https://yt3.ggpht.com/ytc/AMLnZu_GUMeR7wGyMlxJzHfAbwVYWf2-r3k0Ip2KoFttBw=s48-c-k-c0x00ffffff-no-rj" alt=""> 
+                                </div>
+                                <div class="info">
+                                    <h5>96-year-old WWII pilot</h5>
+                                    <p>22,473,603 views  Feb 17, 2017 </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-item">
                         <div class="video">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/-P78g-coQ1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
                         </div>
-                        <div class="info">
+                        <div class="video-info">
                             <div class="video-img">
-                                <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/ytc/AMLnZu-0Yt7v0gZ5VXTiYLX6o8i6ariH2HWAwLIQfIl8=s48-c-k-c0x00ffffff-no-rj" alt=""> 
+                                <img src="https://yt3.ggpht.com/ytc/AMLnZu-0Yt7v0gZ5VXTiYLX6o8i6ariH2HWAwLIQfIl8=s48-c-k-c0x00ffffff-no-rj" alt=""> 
                             </div>
-                            <div class="video-info">
-                                <h3>WORLD'S YOUNGEST DJ</h3>
+                            <div class="info">
+                                <h5>WORLD'S YOUNGEST DJ</h5>
                                 <p>36,595,708 views  Dec 1, 2017</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="v-d">
+                        </div>
+
+                        <div class="video-item">
                         <div class="video">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/e9vrwKUDM7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
                         </div>
-                        <div class="info">
+                        <div class="video-info">
                             <div class="video-img">
-                                <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/JP-7deQhovONVa70CTp6pVMy6LErB5i7Bcn1tPnvdGAFObhjy0n5XxBRbSDwXRI-xfAI-BPf=s48-c-k-c0x00ffffff-no-rj" alt=""> 
+                                <img src="https://yt3.ggpht.com/JP-7deQhovONVa70CTp6pVMy6LErB5i7Bcn1tPnvdGAFObhjy0n5XxBRbSDwXRI-xfAI-BPf=s48-c-k-c0x00ffffff-no-rj" alt=""> 
                             </div>
-                            <div class="video-info">
-                                <h3>Full 68 Days Build Rolls</h3>
+                            <div class="info">
+                                <h5>Full 68 Days Build Rolls</h5>
                                 <p>136,874,708 views  Jan 7, 2022</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="v-d">
-                        <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/8tnGpU9m7WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
                         </div>
-                        <div class="info">
-                            <div class="video-img">
-                                <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/ytc/AMLnZu-WU5uqfZX4Ulh4YcJE8YSBhkbrQ3a06zitx8gy=s48-c-k-c0x00ffffff-no-rj" alt=""> 
-                            </div>
-                            <div class="video-info">
-                                <h3>i Found Many Broken.</h3>
-                                <p>4,057,638 views  Aug 30, 2022</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
 
-                <section>
-                    <div class="v-d">
-                        <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/dnwrL5udsyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
-                        </div>
-                        <div class="info">
-                            <div class="video-img">
-                                <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/S7i3Y-DZ5Mz5pJpUv_Sl7U4V4sI11-38EY_Sun6JyFuSONLtBHYConQK2Qn1wfUPC1dT2Nz5t6g=s88-c-k-c0x00ffffff-no-rj" alt=""> 
+                       <div class="video-item">
+                            <div class="video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/8tnGpU9m7WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
                             </div>
                             <div class="video-info">
-                                <h3>The Magic Flute</h3>
-                                <p>Diana Damrau- The Royal Opera 28K views - 3 days ago</p>
+                                <div class="video-img">
+                                    <img src="https://yt3.ggpht.com/ytc/AMLnZu-WU5uqfZX4Ulh4YcJE8YSBhkbrQ3a06zitx8gy=s48-c-k-c0x00ffffff-no-rj" alt=""> 
+                                </div>
+                                <div class="info">
+                                    <h5>i Found Many Broken.</h5>
+                                    <p>4,057,638 views  Aug 30, 2022</p>
+                                </div>
                             </div>
                         </div>
+                       
                     </div>
-                    <div class="v-d">
-                        <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/dnwrL5udsyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
-                        </div>
-                        <div class="info">
-                            <div class="video-img">
-                                <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/S7i3Y-DZ5Mz5pJpUv_Sl7U4V4sI11-38EY_Sun6JyFuSONLtBHYConQK2Qn1wfUPC1dT2Nz5t6g=s88-c-k-c0x00ffffff-no-rj" alt=""> 
-                            </div>
-                            <div class="video-info">
-                                <h3>The Magic Flute</h3>
-                                <p>Diana Damrau- The Royal Opera 28K views - 3 days ago</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="v-d">
-                        <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/dnwrL5udsyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
-                        </div>
-                        <div class="info">
-                            <div class="video-img">
-                                <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/S7i3Y-DZ5Mz5pJpUv_Sl7U4V4sI11-38EY_Sun6JyFuSONLtBHYConQK2Qn1wfUPC1dT2Nz5t6g=s88-c-k-c0x00ffffff-no-rj" alt=""> 
-                            </div>
-                            <div class="video-info">
-                                <h3>The Magic Flute</h3>
-                                <p>Diana Damrau- The Royal Opera 28K views - 3 days ago</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="v-d">
-                        <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/dnwrL5udsyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
-                        </div>
-                        <div class="info">
-                            <div class="video-img">
-                                <img width="40px" height="40px" style="border-radius: 50px;" src="https://yt3.ggpht.com/S7i3Y-DZ5Mz5pJpUv_Sl7U4V4sI11-38EY_Sun6JyFuSONLtBHYConQK2Qn1wfUPC1dT2Nz5t6g=s88-c-k-c0x00ffffff-no-rj" alt=""> 
-                            </div>
-                            <div class="video-info">
-                                <h3>The Magic Flute</h3>
-                                <p>Diana Damrau- The Royal Opera 28K views - 3 days ago</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-               
-            </div>
-          </div>
-    </main>
 
+                    <div class="video-section-item">
+                        <div class="video-item">
+                            <div class="video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/6TQfSZ_wNdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
+                            </div>
+                            <div class="video-info">
+                                <div class="video-img">
+                                    <img src="https://yt3.ggpht.com/zzdhQmFzf4OvbipS42ast_68LQ1L9wDm59Ahhcy1Vd8lGFFp7OlbGaTEDhIlhzgoFN8x8F369Q=s48-c-k-c0x00ffffff-no-rj" alt=""> 
+                                </div>
+                                <div class="info">
+                                    <h5>GOLD BUZZER for Dakota and..</h5>
+                                    <p>1,806,741 views  Sep 27, 2022  The best talent...</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item">
+                            <div class="video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/8lBwKfugjC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
+                            </div>
+                            <div class="video-info">
+                                <div class="video-img">
+                                    <img src="https://yt3.ggpht.com/ytc/AMLnZu9YD4K5berrayDfKqV1meefqjqE4QXgTJ3n-ZCB-w=s48-c-k-c0x00ffffff-no-rj" alt=""> 
+                                </div>
+                                <div class="info">
+                                    <h5>RINGS (2017) | Behind the Scenes of the Horror Movie</h5>
+                                    <p>2,620,052 views  Jul 24, 2021  Making of Rings (B-Roll)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-item">
+                            <div class="video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/BS4UH_HXQP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
+                            </div>
+                            <div class="video-info">
+                                <div class="video-img">
+                                    <img src="https://yt3.ggpht.com/ytc/AMLnZu8NYgmFt0qHe-Pi1nDlZyODe0aw13FVQwAFuz85lA=s48-c-k-c0x00ffffff-no-rj" alt=""> 
+                                </div>
+                                <div class="info">
+                                    <h5>Spider Man (2002) Cast: Then and Now [20 Years After]</h5>
+                                    <p>947,817 views  Apr 17, 2022  Spider-Man Real Name and Age</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-item">
+                            <div class="video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/osT9F_Smra0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
+                            </div>
+                            <div class="video-info">
+                                <div class="video-img">
+                                    <img src="https://yt3.ggpht.com/LT9DmgHOMqHPRIJHbJUnoex1aL97UgmAKe-yo9rlQuFn4tpxlR8y5yIm-v_vPSEaB1qmJDBUjQ=s48-c-k-c0x00ffffff-no-rj" alt=""> 
+                                </div>
+                                <div class="info">
+                                    <h5>Most Emotional Soldiers Coming Home</h3>
+                                    <p>5,362,406 views  Sep 29, 2022 views - 3 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                </div>
+            </section>
+        </main>
 </body>
 </html>
