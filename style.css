@@ -16,6 +16,18 @@
     background-color: rgb(129, 126, 126);
     border-radius: 50px;
 }
+.banner{
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 1rem 0px;
+}
+
+.banner span{
+    color: red;
+    text-decoration: underline;
+}
 body{
     /* position: fixed; */
     min-height: 100vh;
@@ -32,6 +44,8 @@ header{
     align-items: center;
     position: fixed;
     z-index: 1;
+    border-top: 1px solid rgb(0 0 0 / 15%);
+
 }
 header .item{
     width: 180px;
